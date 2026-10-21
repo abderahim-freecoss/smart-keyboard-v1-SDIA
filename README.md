@@ -4,7 +4,7 @@ A small Streamlit app that suggests the next word with an n-gram language model.
 
 ## Data and limitations
 
-The corpus is synthetic, generated from a fixed-seed grammar. Its language is much more regular than real English, so perplexities are low. It has semantic groups (animals, foods, people, places, and objects) and part-of-speech tags for the related lab; `watch` is intentionally ambiguous as a noun and a verb. The current language model uses the sentence text and does not use the tags. The corpus is safe to share and the app runs locally without sending typed text to a server.
+The corpus is synthetic, generated from a fixed-seed grammar. Its language is much more regular than real English, so perplexities are low. It has semantic groups (animals, foods, people, places, and objects) and part-of-speech tags for the related lab; `watch` is intentionally ambiguous as a noun and a verb. The current language model uses the sentence text and does not use the tags. The corpus is safe to share. When run locally, the app processes typed text on your computer. The deployed Streamlit Community Cloud app processes typed text on Streamlit's servers, so do not enter private text there.
 
 ## Run locally
 
