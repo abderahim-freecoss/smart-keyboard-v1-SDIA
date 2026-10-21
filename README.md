@@ -50,8 +50,8 @@ The exploratory sweep reports a trigram perplexity of 4.63 at `k=0.01`. The lab 
 
 ## Deploy on Streamlit Community Cloud
 
-1. Create a GitHub repository and upload the contents of this folder to its root.
-2. In Streamlit Community Cloud, create an app from that repository, select `app.py` as the main file, and deploy.
+1. Use the existing repository: [abderahim-freecoss/smart-keyboard-v1-SDIA](https://github.com/abderahim-freecoss/smart-keyboard-v1-SDIA).
+2. In Streamlit Community Cloud, create an app from that repository, select the `main` branch and `app.py` as the main file, then deploy.
 3. Open the deployed app and copy its public app URL.
 4. Submit that app URL and the GitHub repository URL in Classroom.
 
